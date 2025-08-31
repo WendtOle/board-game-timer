@@ -38,7 +38,7 @@ export const GameSetup: React.FC<GameSetupProps> = ({
   const canStartGame = players.length >= 2 && settings.initialTime > 0;
 
   return (
-    <div className="h-screen bg-gray-50 py-8 px-4 overflow-hidden flex flex-col">
+    <div className="h-dvh bg-gray-50 py-8 px-4 overflow-hidden flex flex-col">
       <div className="flex-1 max-w-md mx-auto flex flex-col w-full">
         <div className="flex-1 mb-8">
           <h3 className="text-xl font-semibold text-gray-800 mb-6 text-center">Players</h3>

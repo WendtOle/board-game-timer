@@ -44,7 +44,7 @@ export const Timer: React.FC = () => {
   }
 
   return (
-    <div  className="h-screen bg-gray-50 py-2 px-2 overflow-hidden flex flex-col gap-2">
+    <div  className="h-dvh bg-gray-50 py-2 px-2 overflow-hidden flex flex-col gap-2">
       {gameState.isRunning && <GameControls
         actions={actions}
         isPaused={gameState.isPaused}
